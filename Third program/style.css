@@ -1,0 +1,105 @@
+*{ 
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "popins" ,sans-serif;
+
+}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px;
+    height: 90px;
+    background-color: #000;
+
+}.grow-list{
+    flex-grow: 1;
+}
+img
+    {
+       width: 100px;
+       height: 95px;
+    }
+.line{
+    width: 1px;
+    height: 50px;
+    background-color: #fff;
+    margin-left: 63px;
+}
+.list{
+    display: flex;
+    align-items: center; 
+    gap: 60px;
+    list-style: none;
+    font-weight: 600; 
+    font-family: "popins";
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 64px;
+    color: #ffffff;   
+}
+.logo{
+    color: black;
+    cursor: pointer;
+}
+.list-item{
+    cursor: pointer;
+}
+.small-button{
+    padding: 7px  28px;
+    background: #ba0cc5;
+    border-radius: 6px;
+    border: none;
+    font-family: "popins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+    color: #ffffff;
+
+}
+.hero{
+    background-image: url(./aspects/bg.png);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 90vh;
+    text-align: center;
+}
+.hero-heading{
+     max-width: 840px;
+     margin:0 auto;
+     font-style: normal;
+     font-size: 80px;
+     font-weight: 700;
+     text-align: center;
+     color: #ffffff;
+     padding-top: 170px;
+     line-height: 95px;
+}
+.hero-description{
+    font-family: "popins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: #ffffff;
+}
+.large-button{
+    background: #ba0cc5;
+    border-radius: 11.2308px;
+    font-family: "popins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29.9487px;
+    line-height: 45px;
+    color:#ffffff ;
+    border: none;
+    cursor: pointer;
+    padding: 14px 22px;
+    margin-top: 64px;
+}
